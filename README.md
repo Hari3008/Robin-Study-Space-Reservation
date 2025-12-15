@@ -1,4 +1,4 @@
-# RoomRush - Study Space Reservation System
+# SpaceRush - Study Space Reservation System
 
 We aim to build a scalable study space reservation platform for Northeastern University that improves on the current Robin app experience. Students frequently encounter limited availability information, sluggish load times during peak hours, and minimal visibility into upcoming reservations. A modernized system with elastic back-end services, richer analytics, and proactive notifications will help students find and manage study spaces efficiently, while giving campus operations better insight into usage patterns.
 
