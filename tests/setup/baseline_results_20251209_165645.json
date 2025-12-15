@@ -1,0 +1,345 @@
+{
+  "timestamp": "20251209_165645",
+  "alb_url": "http://CS6650L2-alb-1577896554.us-east-1.elb.amazonaws.com",
+  "users": [
+    {
+      "username": "admin",
+      "user_id": 68964274453,
+      "email": "admin@studyreservation.com",
+      "type": "admin"
+    },
+    {
+      "username": "alice",
+      "user_id": 33912100992,
+      "email": "alice@university.edu",
+      "type": "student"
+    },
+    {
+      "username": "bob",
+      "user_id": 86238485310,
+      "email": "bob@university.edu",
+      "type": "student"
+    },
+    {
+      "username": "charlie",
+      "user_id": 30551667060,
+      "email": "charlie@university.edu",
+      "type": "student"
+    },
+    {
+      "username": "diana",
+      "user_id": 77591986836,
+      "email": "diana@university.edu",
+      "type": "student"
+    },
+    {
+      "username": "ethan",
+      "user_id": 43502308089,
+      "email": "ethan@university.edu",
+      "type": "student"
+    },
+    {
+      "username": "fiona",
+      "user_id": 97389305305,
+      "email": "fiona@university.edu",
+      "type": "student"
+    },
+    {
+      "username": "george",
+      "user_id": 14050757832,
+      "email": "george@university.edu",
+      "type": "student"
+    },
+    {
+      "username": "hannah",
+      "user_id": 1945088971,
+      "email": "hannah@university.edu",
+      "type": "student"
+    },
+    {
+      "username": "ivan",
+      "user_id": 85560978837,
+      "email": "ivan@university.edu",
+      "type": "student"
+    },
+    {
+      "username": "julia",
+      "user_id": 3703542799,
+      "email": "julia@university.edu",
+      "type": "student"
+    },
+    {
+      "username": "prof_smith",
+      "user_id": 42414049844,
+      "email": "prof.smith@university.edu",
+      "type": "faculty"
+    },
+    {
+      "username": "prof_jones",
+      "user_id": 78873221651,
+      "email": "prof.jones@university.edu",
+      "type": "faculty"
+    },
+    {
+      "username": "prof_chen",
+      "user_id": 72610560999,
+      "email": "prof.chen@university.edu",
+      "type": "faculty"
+    },
+    {
+      "username": "prof_garcia",
+      "user_id": 6389557404,
+      "email": "prof.garcia@university.edu",
+      "type": "faculty"
+    },
+    {
+      "username": "prof_kim",
+      "user_id": 59304493528,
+      "email": "prof.kim@university.edu",
+      "type": "faculty"
+    },
+    {
+      "username": "staff_mary",
+      "user_id": 69040024985,
+      "email": "mary@university.edu",
+      "type": "staff"
+    },
+    {
+      "username": "staff_john",
+      "user_id": 43665825941,
+      "email": "john@university.edu",
+      "type": "staff"
+    },
+    {
+      "username": "staff_sarah",
+      "user_id": 38195205703,
+      "email": "sarah@university.edu",
+      "type": "staff"
+    },
+    {
+      "username": "staff_mike",
+      "user_id": 48025636347,
+      "email": "mike@university.edu",
+      "type": "staff"
+    },
+    {
+      "username": "staff_lisa",
+      "user_id": 93824810535,
+      "email": "lisa@university.edu",
+      "type": "staff"
+    }
+  ],
+  "spaces": [
+    {
+      "space_id": "Library-101",
+      "building": "Library",
+      "room_code": 101,
+      "capacity": 4
+    },
+    {
+      "space_id": "Library-102",
+      "building": "Library",
+      "room_code": 102,
+      "capacity": 6
+    },
+    {
+      "space_id": "Library-103",
+      "building": "Library",
+      "room_code": 103,
+      "capacity": 8
+    },
+    {
+      "space_id": "Library-201",
+      "building": "Library",
+      "room_code": 201,
+      "capacity": 2
+    },
+    {
+      "space_id": "Library-202",
+      "building": "Library",
+      "room_code": 202,
+      "capacity": 10
+    },
+    {
+      "space_id": "Library-301",
+      "building": "Library",
+      "room_code": 301,
+      "capacity": 1
+    },
+    {
+      "space_id": "Engineering-101",
+      "building": "Engineering",
+      "room_code": 101,
+      "capacity": 4
+    },
+    {
+      "space_id": "Engineering-102",
+      "building": "Engineering",
+      "room_code": 102,
+      "capacity": 6
+    },
+    {
+      "space_id": "Engineering-103",
+      "building": "Engineering",
+      "room_code": 103,
+      "capacity": 8
+    },
+    {
+      "space_id": "Engineering-201",
+      "building": "Engineering",
+      "room_code": 201,
+      "capacity": 2
+    },
+    {
+      "space_id": "Engineering-202",
+      "building": "Engineering",
+      "room_code": 202,
+      "capacity": 10
+    },
+    {
+      "space_id": "Engineering-301",
+      "building": "Engineering",
+      "room_code": 301,
+      "capacity": 1
+    },
+    {
+      "space_id": "Science-101",
+      "building": "Science",
+      "room_code": 101,
+      "capacity": 4
+    },
+    {
+      "space_id": "Science-102",
+      "building": "Science",
+      "room_code": 102,
+      "capacity": 6
+    },
+    {
+      "space_id": "Science-103",
+      "building": "Science",
+      "room_code": 103,
+      "capacity": 8
+    },
+    {
+      "space_id": "Science-201",
+      "building": "Science",
+      "room_code": 201,
+      "capacity": 2
+    },
+    {
+      "space_id": "Science-202",
+      "building": "Science",
+      "room_code": 202,
+      "capacity": 10
+    },
+    {
+      "space_id": "Science-301",
+      "building": "Science",
+      "room_code": 301,
+      "capacity": 1
+    },
+    {
+      "space_id": "Business-101",
+      "building": "Business",
+      "room_code": 101,
+      "capacity": 4
+    },
+    {
+      "space_id": "Business-102",
+      "building": "Business",
+      "room_code": 102,
+      "capacity": 6
+    },
+    {
+      "space_id": "Business-103",
+      "building": "Business",
+      "room_code": 103,
+      "capacity": 8
+    },
+    {
+      "space_id": "Business-201",
+      "building": "Business",
+      "room_code": 201,
+      "capacity": 2
+    },
+    {
+      "space_id": "Business-202",
+      "building": "Business",
+      "room_code": 202,
+      "capacity": 10
+    },
+    {
+      "space_id": "Business-301",
+      "building": "Business",
+      "room_code": 301,
+      "capacity": 1
+    },
+    {
+      "space_id": "Arts-101",
+      "building": "Arts",
+      "room_code": 101,
+      "capacity": 4
+    },
+    {
+      "space_id": "Arts-102",
+      "building": "Arts",
+      "room_code": 102,
+      "capacity": 6
+    },
+    {
+      "space_id": "Arts-103",
+      "building": "Arts",
+      "room_code": 103,
+      "capacity": 8
+    },
+    {
+      "space_id": "Arts-201",
+      "building": "Arts",
+      "room_code": 201,
+      "capacity": 2
+    },
+    {
+      "space_id": "Arts-202",
+      "building": "Arts",
+      "room_code": 202,
+      "capacity": 10
+    },
+    {
+      "space_id": "Arts-301",
+      "building": "Arts",
+      "room_code": 301,
+      "capacity": 1
+    },
+    {
+      "space_id": "Library-500",
+      "building": "Library",
+      "room_code": 500,
+      "capacity": 20
+    },
+    {
+      "space_id": "Library-600",
+      "building": "Library",
+      "room_code": 600,
+      "capacity": 30
+    },
+    {
+      "space_id": "Virtual-999",
+      "building": "Virtual",
+      "room_code": 999,
+      "capacity": 100
+    },
+    {
+      "space_id": "Engineering-401",
+      "building": "Engineering",
+      "room_code": 401,
+      "capacity": 15
+    },
+    {
+      "space_id": "Science-501",
+      "building": "Science",
+      "room_code": 501,
+      "capacity": 12
+    }
+  ],
+  "failed_operations": []
+}

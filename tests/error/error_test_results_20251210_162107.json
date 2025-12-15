@@ -1,0 +1,44 @@
+{
+  "passed": [
+    "Missing required fields",
+    "Empty username",
+    "Missing password",
+    "Invalid JSON",
+    "Duplicate username (if implemented)",
+    "Non-existent user",
+    "Wrong password",
+    "Invalid user ID format",
+    "Missing credentials",
+    "Invalid session format",
+    "No authentication",
+    "Non-admin user",
+    "Invalid auth format",
+    "Non-existent space",
+    "Invalid space ID format",
+    "Invalid time range (end before start)",
+    "Invalid date format",
+    "Missing required fields",
+    "Exceeding space capacity",
+    "Negative occupants",
+    "Booking in the past",
+    "Unicode characters in username",
+    "Maximum integer user ID",
+    "SQL injection attempt",
+    "NoSQL injection attempt",
+    "XSS attempt in space creation",
+    "Command injection in parameters"
+  ],
+  "failed": [
+    "Expired session (got 404)",
+    "Missing required fields (got 500)",
+    "Duplicate space (got 500)",
+    "Expired admin session (got 500)",
+    "No authentication (got 400)",
+    "Non-existent space (got 400)",
+    "Double booking same time slot (got 400)",
+    "Very long username (got 201)"
+  ],
+  "unexpected": [
+    "Special characters in space ID: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"
+  ]
+}

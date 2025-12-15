@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  master:
+    image: locustio/locust
+    ports:
+      - "8089:8089"
+    volumes:
+      - ./:/mnt/locust
+    environment:
+      - LOCUST_MODE=master
+      - LOCUST_HOST=http://cs6650l2-alb-2044995355.us-west-2.elb.amazonaws.com
+    command: -f /mnt/locust/locust_availability.py --master --host http://cs6650l2-alb-2044995355.us-west-2.elb.amazonaws.com
+
+  worker:
+    image: locustio/locust
+    volumes:
+      - ./:/mnt/locust
+    environment:
+      - LOCUST_MODE=worker
+      - LOCUST_MASTER_HOST=master
+    command: -f /mnt/locust/locust_file.py --worker --master-host master
+    deploy:
+      replicas: 1  # Scale workers as needed
+    depends_on:
+      - master
